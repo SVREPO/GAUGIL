@@ -4,8 +4,8 @@
   "description": "Sitio estático (HTML + CSS + JS vanilla), sin build ni dependencias.",
   "main": "index.js",
   "scripts": {
-    "start": "live-server --port=3000 --no-ip",
-    "dev": "live-server --port=3000 --no-ip --open=/"
+    "start": "live-server . --port=3000",
+    "dev": "live-server . --port=3000 --open=/"
   },
   "keywords": [],
   "author": "",
