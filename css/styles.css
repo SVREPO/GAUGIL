@@ -98,6 +98,12 @@ footer h3{font-size:.9rem;font-weight:600;margin-bottom:16px}
 footer li{list-style:none;margin-bottom:10px;color:var(--mut);font-size:.95rem;overflow-wrap:anywhere}
 footer li a:hover{color:var(--tx)}
 footer .brand{margin-bottom:14px}
+.social{display:flex;gap:16px;justify-content:center;margin-top:28px}
+.social a{display:grid;place-items:center;width:40px;height:40px;border-radius:50%;border:1px solid var(--line);transition:border-color .25s}
+.social a:hover{border-color:var(--ac)}
+.social svg{width:22px;height:22px}
+.social svg *{stroke:var(--mut);transition:stroke .25s}
+.social a:hover svg *{stroke:var(--ac)}
 .copy{margin-top:54px;padding-top:24px;border-top:1px solid var(--line);color:var(--mut);font-size:.88rem;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
 
 /* WHATSAPP */
