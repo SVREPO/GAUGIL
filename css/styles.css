@@ -102,8 +102,8 @@ footer .brand{margin-bottom:14px}
 .social a{display:grid;place-items:center;width:40px;height:40px;border-radius:50%;border:1px solid var(--line);transition:border-color .25s}
 .social a:hover{border-color:var(--ac)}
 .social svg{width:22px;height:22px}
-.social svg *{stroke:var(--mut);transition:stroke .25s}
-.social a:hover svg *{stroke:var(--ac)}
+.social svg *{fill:var(--mut);transition:fill .25s}
+.social a:hover svg *{fill:var(--ac)}
 .copy{margin-top:54px;padding-top:24px;border-top:1px solid var(--line);color:var(--mut);font-size:.88rem;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
 
 /* WHATSAPP */
