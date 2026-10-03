@@ -1,5 +1,6 @@
 // nav
-const bg=document.querySelector('.burger'),lk=document.getElementById('links');
+const hd=document.getElementById('top'),bg=document.querySelector('.burger'),lk=document.getElementById('links');
+addEventListener('scroll',()=>hd.classList.toggle('sc',scrollY>30),{passive:true});
 bg.onclick=()=>{const o=lk.classList.toggle('open');bg.setAttribute('aria-expanded',o)};
 lk.querySelectorAll('a').forEach(a=>a.onclick=()=>{lk.classList.remove('open');bg.setAttribute('aria-expanded',false)});
 lk.onclick=e=>{if(e.target===lk){lk.classList.remove('open');bg.setAttribute('aria-expanded',false)}};
