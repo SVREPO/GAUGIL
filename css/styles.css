@@ -117,7 +117,7 @@ footer .brand{margin-bottom:14px}
 @media(max-width:760px){
  section{padding:80px 0}
  .burger{display:block}
- .links{position:fixed;top:72px;right:0;bottom:0;left:0;background:rgba(0,0,0,.96);flex-direction:column;justify-content:center;gap:28px;font-size:1.4rem;transform:translateY(-100vh);opacity:0;pointer-events:none;transition:transform .45s cubic-bezier(.7,0,.2,1),opacity .45s;z-index:40}
+ .links{position:fixed;inset:0;background:rgba(0,0,0,.96);flex-direction:column;justify-content:center;gap:28px;font-size:1.4rem;transform:translateY(-100vh);opacity:0;pointer-events:none;transition:transform .45s cubic-bezier(.7,0,.2,1),opacity .45s;z-index:60}
  .links.open{transform:none;opacity:1;pointer-events:auto}
  header .burger{position:relative;z-index:2}
  .grid{grid-template-columns:1fr}
